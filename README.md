@@ -29,7 +29,8 @@ Supprisingly, the model, which is build to predict character by character (not w
 ### Considerations
 For this to work, the text had to be shuffled using:
 ```import random
-random.shuffle(words)```
-Otherwise, the model would only predict counties that start with the letter "A".
+random.shuffle(words)
+```
+We do this to avoid the model to only predict counties that start with the letter "A".
 
 

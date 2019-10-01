@@ -22,8 +22,14 @@ Batch_size = 128
  <img src="Output.PNG" width="50%" title="Output">
   </p>
  
- ### Description
+### Description
 The model was trained on the Names, Latitude and Longitude (all in one string) of German counties. 
-Supprisingly, the model, which is build to predict character by character (not words), learns the structure of the text and spits out an arbitrary number of fake counties with GPS codes.  
+Supprisingly, the model, which is build to predict character by character (not words), learns the structure of the text and spits out an arbitrary number of fake counties with GPS codes. 
+
+### Considerations
+For this to work, the text had to be shuffled using:
+'''import random
+random.shuffle(words)'''
+Otherwise, the model would only predict counties that start with the letter "A".
 
 

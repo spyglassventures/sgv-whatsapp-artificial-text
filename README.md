@@ -1,4 +1,8 @@
 # Text generator which reads in large .txt files, trains a LSTM model on it and outputs text in similar format.
+## The model is trained with the help of SCUDA and on a Nvidia Geforce Gtx 1060
+<p align="right">
+ <img src="gtx.jpg" width="10% title="Input">
+ </p>
 
 The model uses the following parameter
 num_hidden=512,
@@ -28,7 +32,8 @@ Supprisingly, the model, which is build to predict character by character (not w
 
 ### Considerations
 For this to work, the text had to be shuffled using:
-```import random
+```
+import random
 random.shuffle(words)
 ```
 We do this to avoid the model to only predict counties that start with the letter "A".

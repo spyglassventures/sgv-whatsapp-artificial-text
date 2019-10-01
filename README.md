@@ -14,11 +14,11 @@ Batch_size = 128
 
 ### Input
 <p align="center">
- <img src="Input.png" width="100%" title="Input">
+ <img src="Input.PNG" width="100%" title="Input">
  </p>
  
  ### Output
- <img src="Output.png" width="100%" title="Output">
+ <img src="Output.PNG" width="100%" title="Output">
 
 
 

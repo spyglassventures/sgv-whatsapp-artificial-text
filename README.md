@@ -23,7 +23,7 @@ Batch_size = 128
  
  ### Output
  <p align="left">
- <img src="Output.PNG" width="60%" title="Output">
+ <img src="Output.PNG" width="55%" title="Output">
  </p>
  
 ### Description

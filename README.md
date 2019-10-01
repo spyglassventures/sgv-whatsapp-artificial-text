@@ -18,7 +18,7 @@ Batch_size = 128
 
 ### Input
 <p align="left">
- <img src="Input.PNG" width="40% title="Input">
+ <img src="Input.PNG" width="30% title="Input">
  </p>
  
  ### Output
@@ -37,5 +37,6 @@ import random
 random.shuffle(words)
 ```
 We do this to avoid the model to only predict counties that start with the letter "A".
+Training time: --- 543.0422582626343 seconds ---
 
 

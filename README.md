@@ -31,12 +31,13 @@ The model was trained on the Names, Latitude and Longitude (all in one string) o
 Supprisingly, the model, which is build to predict character by character (not words), learns the structure of the text and spits out an arbitrary number of fake counties with GPS codes. 
 
 ### Considerations
-For this to work, the text had to be shuffled using:
+For this to work, the text had to be shuffled using a simple:
 ```
 import random
 random.shuffle(words)
 ```
 We do this to avoid the model to only predict counties that start with the letter "A".
+
 Training time: --- 543.0422582626343 seconds ---
 
 

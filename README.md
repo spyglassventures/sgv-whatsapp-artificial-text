@@ -41,3 +41,32 @@ We do this to avoid the model to only predict counties that start with the lette
 Training time: --- 543.0422582626343 seconds ---
 
 
+# 2. WhatsApp Chat History (n=11088)
+Epochs to trained = 
+Batch_size = 
+
+### Input
+<p align="left">
+ <img src="Input_whatsapp.PNG" width="40% title="Input">
+ </p>
+ 
+ ### Output
+ <p align="left">
+ <img src="Output_whatsapp.PNG" width="55%" title="Output">
+ </p>
+ 
+### Description
+The model was trained on....
+
+### Considerations
+For this to work, the text had to be ...
+
+
+```
+TBD
+```
+
+
+Training time: ---  seconds ---
+
+

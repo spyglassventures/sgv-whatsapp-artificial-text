@@ -20,7 +20,8 @@ Batch_size = 128
 <p align="left">
  <img src="Input.PNG" width="40% title="Input">
  </p>
- 
+(I blanked my wife's first name)
+                                             
  ### Output
  <p align="left">
  <img src="Output.PNG" width="55%" title="Output">

@@ -12,7 +12,7 @@ use_gpu=True
 
 I tested the model on different datasets. Some models converged quickly, some not at all.
 
-# 1. Counties in Germany with GPS codes (n=11088 couties)
+# 1. Counties in Germany with GPS codes (n=11088 counties)
 Epochs to trained = 35
 Batch_size = 128
 

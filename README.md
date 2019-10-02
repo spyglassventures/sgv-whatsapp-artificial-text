@@ -80,10 +80,13 @@ Daniel: Bin gut aus dir ganz dass du bist du dir gehalt
 (I replaced my wife's first name with "...a". Everything else was created by the machine.)
 
 ### Description
-The model was trained on my wife and mine WhatApp chat history of about 5 years. The model is able to produce the format you find in WhatApp, output some German words, however is not able to generally produce meaningful sentences (few excpetions).
+The model was trained on my wife and mine WhatApp chat history of about 5 years. The model is able to produce the format you find in the WhatApp chat history and is able to output some German words. However is not able to generally produce meaningful sentences (few short excpetions).
+
+Bonus points: The model also picked up the "author distribution" of the messages between us.
+I don't text that much, neither does the model pretend to (=
 
 ### Considerations
-At the beginning, whatever I did, my model did not converge. The main reason was the amount of characters to be encoded. The model thought of each emoticons as of a characters. I endet up with 733 options for the algoritym to choose from, when picking the next character. Removing the emoticons reduced the space by approximately 85%, while keepting the text readable.
+At the beginning, whatever I did, my model did not converge. The main reason was the amount of characters to be encoded. The model thought of each emoticon as of a characters. I ended up with 733 options for the algorithm to choose from, when picking the subsequent character. Removing the emoticons reduced the space by approximately 85%, while keeping the text readable.
 
 <p align="left">
  <img src="Encoder_Whatsapp.PNG" width="55%" title="Output">

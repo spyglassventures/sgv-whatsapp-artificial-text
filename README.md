@@ -50,7 +50,7 @@ Batch_size =
 <p align="left">
  <img src="Input_Whatsapp.png" width="80% title="Input">
  </p>
-(I blanked my wife's first name)                                                      
+(I blanked my wife's first name and number for obvious reasons.)                                                      
  
  ### Output
 ```

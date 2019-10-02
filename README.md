@@ -86,11 +86,12 @@ Bonus points: The model also picked up the "author distribution" of the messages
 I don't text that much, neither does the model pretend to (=
 
 ### Considerations
-At the beginning, whatever I did, my model did not converge. The main reason was the amount of characters to be encoded. The model thought of each emoticon as of a characters. I ended up with 733 options for the algorithm to choose from, when picking the subsequent character. Removing the emoticons reduced the space by approximately 85%, while keeping the text readable.
+At the beginning, whatever I did, my model did not converge. The main reason was the amount of characters to be encoded. The model thought of each emoticon as of a characters. I ended up with 733 options for the algorithm to choose from, when picking the subsequent character. 
 
 <p align="left">
- <img src="Encoder_Whatsapp.PNG" width="55%" title="Output">
+ <img src="Encoder_Whatsapp.png" width="55%" title="Output">
  </p>
+Removing the emoticons reduced the space by approximately 85%, while keeping the text readable.
 
 ```
 TBD

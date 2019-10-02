@@ -52,36 +52,22 @@ Batch_size =
  </p>
  
  ### Output
+```
 Daniel: Wie die schlechte auf
-
 ...a Müller : Da keine Somen die Schatz 
-
 ...a Müller : Dann ist dir gestimmt den Schatz 
-
 ...a Müller : Danke ich mir die sorlen den Meinen?
-
 Daniel: Bis gut in Schatz
-
 ...a Müller : Heit
-
 ...a Müller : Heh ich mich dann suer mich auch auf dir aber
-
 ...a Müller : Dass den Schatze Schatz 
-
 ...a Müller   Dier schon die schlacht
-
 ...a Müller : Ich dir den Sonnen ich dass sorte mit gerauten sorer ist dann den Stard
-
 ...a Müller : Ich hieb dich auch
-
 ...a Müller : Hit ist der Stit mal dich so guten Schatz
-
 ...a Müller : Hi Schatz weißen dir an mal in schöchen?
-
 Daniel: Hab schön schönen Stutz
-
 Daniel: Hie ich dann schot schon auch sehr suesse
-
 ...a Müller : Dann ich mal dir gut aber die Bein die Schatz ist dass auch aber schlecht
 ...a Müller : Hab die so gerne auf die so sehr
 ...a Müller : Dann da kannst
@@ -89,8 +75,8 @@ Daniel: Hie ich dann schot schon auch sehr suesse
 Daniel: Heute mit
 Daniel: Bin so schon so sein
 Daniel: Bin gut aus dir ganz dass du bist du dir gehalt
-
-(I replaced my wife's first name with "...a". Everything else was created by the machine)
+```
+(I replaced my wife's first name with "...a". Everything else was created by the machine.)
 
 ### Description
 The model was trained on my wife and mine WhatApp chat history of about 5 years. The model is able to produce the format you find in WhatApp, output some German words, however is not able to generally produce meaningful sentences (few excpetions).

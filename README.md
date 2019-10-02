@@ -12,7 +12,7 @@ use_gpu=True
 
 I tested the model on different datasets. Some models converged quickly, some not at all.
 
-# 1. Counties in Germany with GPS codes (n=11088)
+# 1. Counties in Germany with GPS codes (n=11088 couties)
 Epochs to trained = 35
 Batch_size = 128
 
@@ -41,13 +41,13 @@ We do this to avoid the model to only predict counties that start with the lette
 Training time: --- 543.0422582626343 seconds ---
 
 
-# 2. WhatsApp Chat History (n=11088)
+# 2. WhatsApp Chat History (n=40908 WhatsApp Messages, between 29.08.14 - 15.9.2019)
 Epochs to trained = 
 Batch_size = 
 
 ### Input
 <p align="left">
- <img src="Input_whatsapp.PNG" width="40% title="Input">
+ <img src="Input_Whatsapp.png" width="40% title="Input">
  </p>
  
  ### Output
@@ -59,8 +59,11 @@ Batch_size =
 The model was trained on....
 
 ### Considerations
-For this to work, the text had to be ...
+At the beginning, whatever I did, my model did not converge. The main reason was the amount of characters to be encoded. The model thought of each emoticons as of a characters. I endet up with 733 options for the algoritym to choose from, when picking the next character. Removing the emoticons reduced the space by approximately 85%, while keepting the text readable.
 
+<p align="left">
+ <img src="Encoder_Whatsapp.PNG" width="55%" title="Output">
+ </p>
 
 ```
 TBD
